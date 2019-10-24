@@ -27,3 +27,14 @@ While most vectorizers have their unique advantages, it is not always clear whic
 TF-IDF vectorizes documents by calculating a TF-IDF statistic between the document and each term in the vocabulary. The document vector is constructed by using each statistic as an element in the vector.
 
 ![Vectorizing text](https://github.com/Ratna04priya/Spam-Detection-using-NLP-ML-models/blob/master/images/1.png)
+
+The TF-IDF statistic for term i in document j is calculated as follows:
+
+![Formula](https://github.com/Ratna04priya/Spam-Detection-using-NLP-ML-models/blob/master/images/2.png)
+
+After settling with TF-IDF, we must decide the granularity of our vectorizer.
+We use Counter vectorizer.
+
+## 4. Gradient Boosting
+
+Gradient boosting is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees.
