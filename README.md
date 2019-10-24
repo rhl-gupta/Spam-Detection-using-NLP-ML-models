@@ -25,3 +25,5 @@ Instead, we will use the TF-IDF vectorizer (Term Frequency — Inverse Document 
 While most vectorizers have their unique advantages, it is not always clear which one to use. In our case, the TF-IDF vectorizer was chosen for its simplicity and efficiency in vectorizing documents such as text messages.
 
 TF-IDF vectorizes documents by calculating a TF-IDF statistic between the document and each term in the vocabulary. The document vector is constructed by using each statistic as an element in the vector.
+
+![Vectorizing text](https://github.com/Ratna04priya/Spam-Detection-using-NLP-ML-models/blob/master/images/1.png)
